@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-webgl",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0.3",
+    "gsap": "^3.5.1",
+    "nuxt": "^2.14.6",
+    "split-html-to-chars": "^1.0.5",
+    "three": "^0.123.0",
+    "three-orbit-controls": "^82.1.0",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "nodemon": "^2.0.6"
+  }
+}
